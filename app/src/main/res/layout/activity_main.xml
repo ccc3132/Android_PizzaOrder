@@ -78,7 +78,8 @@
     <RadioGroup
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:id="@+id/radioGroup">
 
         <RadioButton
             android:id="@+id/radioButton"
@@ -110,7 +111,7 @@
             android:layout_weight="1" />
 
         <Button
-            android:text="결재"
+            android:text="주문완료"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button2"
