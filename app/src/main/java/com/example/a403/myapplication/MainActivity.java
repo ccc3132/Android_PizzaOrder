@@ -92,7 +92,8 @@ public class MainActivity extends AppCompatActivity {
             t5.setText("주문개수는" + sum);
 
             if(c1.isChecked()) {
-                t6.setText("계산결과" + (result*0.7));
+                result = result-(result/70);
+                t6.setText("계산결과" + result);
             }
             else
             {

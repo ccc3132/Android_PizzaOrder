@@ -72,7 +72,7 @@
         android:id="@+id/checkBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="멤버쉽카드있음(70%할인)" />
+        android:text="멤버쉽카드있음(7%할인)" />
 
 
     <RadioGroup
